@@ -21,7 +21,7 @@ async def send_video_handler(bot, cmd, output_vid, video_thumbnail, duration, wi
         supports_streaming=True,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/YuiHirasawauserbot")],
                                            [InlineKeyboardButton("Bots Channel", url="https://t.me/UpdateBots1")],
-                                           [InlineKeyboardButton("Support Group", url="soon")]]),
+                                           [InlineKeyboardButton("Support Group", url="http://t.me/WMOOfficial")]]),
         progress=progress_for_pyrogram,
         progress_args=(
             "Uploading, Wait Sir ...",
